@@ -394,7 +394,7 @@ def main():
         train_ds=train_ds,
         val_ds=val_ds,
         model_name=model_name,
-        epochs=5,
+        epochs=50,
         save_dir="models"
     )
 
