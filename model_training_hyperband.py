@@ -244,7 +244,7 @@ def main():
         data_df=data_df,
         feature_types=feature_types,
         target_column='score',
-        batch_size=32
+        batch_size=16
     )
 
     # Determine input shape
